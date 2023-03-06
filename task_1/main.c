@@ -18,8 +18,8 @@ int chek(int argc, char *argv[]){
 }
 
 void arr_sort(int size, char array[]){
-    for (int i = 0; i < size - 1 - i; ++i)
-        for (int j = 0; j < (size - 1); ++j)
+    for (int i = 0; i < size; ++i)
+        for (int j = 0; j < (size - 1 - i); ++j)
             if (array[j] > array[j + 1]) {
                 swap(char, array[j], array[j + 1])
             }
